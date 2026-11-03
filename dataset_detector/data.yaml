@@ -1,0 +1,14 @@
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: levankhai0322-gmail-com
+  project: vietnam-license-plate-hjswj-f9nnj
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/levankhai0322-gmail-com/vietnam-license-plate-hjswj-f9nnj/1

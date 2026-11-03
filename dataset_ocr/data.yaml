@@ -1,0 +1,45 @@
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 30
+
+names:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - 'A'
+  - 'B'
+  - 'C'
+  - 'D'
+  - 'E'
+  - 'F'
+  - 'G'
+  - 'H'
+  - 'K'
+  - 'L'
+  - 'M'
+  - 'N'
+  - 'P'
+  - 'S'
+  - 'T'
+  - 'U'
+  - 'V'
+  - 'X'
+  - 'Y'
+  - 'Z'
+
+roboflow:
+  workspace: levankhai0322-gmail-com
+  project: ocr-stypd-qewgt
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/levankhai0322-gmail-com/ocr-stypd-qewgt/1

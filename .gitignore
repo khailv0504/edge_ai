@@ -1,10 +1,38 @@
-data/
+
+# Dataset: chỉ lưu file YAML
+dataset_detector/*
+!dataset_detector/data.yaml
+
+dataset_ocr/*
+!dataset_ocr/data.yaml
+
+# Training outputs
+runs/
+**/runs/
+
+# Model weights and exports
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ncnn
+*.torchscript
+
+# Archives
 *.zip
-*.jpg
-*.png
-*.jpeg
+
+# Python environments
+.venv/
+venv/
 __pycache__/
-.vscode/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
 .env
-models/
-experiments/
+.env.*
+kaggle.json
+
+# IDE
+.idea/
+.vscode/
